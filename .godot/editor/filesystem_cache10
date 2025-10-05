@@ -1,3 +1,14 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1759252816
+::res://::1759628140
+box.tscn::PackedScene::1416087253561252828::1759628126::0::1::::<><><>0<>0<><>::uid://ctyoxtd25tdlm::::res://Art/Box.png
 icon.svg::CompressedTexture2D::5623588717690757874::1759252810::1759252817::1::::<><><>0<>0<>c8e4455782b32bbde54841e3a5cfc638<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+LICENSE.md::TextFile::-1::1759252992::0::1::::<><><>0<>0<><>::
+MainLevel.tscn::PackedScene::7082217457689145722::1759628140::0::1::::<><><>0<>0<><>::uid://c81jkxgtkpntt::::res://player.tscn<>uid://cwkjfkl1ydpmu::::res://tile_map_layer.tscn<>uid://d4lpf5wb3vhjl::::res://node_2d.gd<>uid://uf70rg2qgd3i::::res://box.tscn
+node_2d.gd::GDScript::9218367965507809377::1759627787::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::657180601489582854::1759627903::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene::7143312558103893573::1759628087::0::1::::<><><>0<>0<><>::uid://jmlwy1m6g0ww::::res://player.gd<>uid://b3072fj342nv::::res://Art/Priest.png
+README.md::TextFile::-1::1759252992::0::1::::<><><>0<>0<><>::
+tile_map_layer.tscn::PackedScene::6338195630307813760::1759627402::0::1::::<><><>0<>0<><>::
+::res://Art/::1759628099
+Box.png::CompressedTexture2D::6156866577610458278::1759628174::1759628189::1::::<><><>0<>0<>99a887e6944f52a2701cfbafc9e641dc<>res://.godot/imported/Box.png-d99a02cd214f11bdc0fc385223bfb48f.ctex::
+Priest.png::CompressedTexture2D::129567917277808067::1759626233::1759628087::1::::<><><>0<>0<>54edda1c6b9e43e99d5f79e480672ebd<>res://.godot/imported/Priest.png-c6f3729dd8570f5126185e5be398b1d4.ctex::

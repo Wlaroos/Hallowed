@@ -1,3 +1,33 @@
-[gd_scene format=3 uid="uid://c75xc7lyjdxuo"]
+[gd_scene load_steps=4 format=3 uid="uid://c75xc7lyjdxuo"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="PackedScene" uid="uid://c81jkxgtkpntt" path="res://player.tscn" id="1_jq6gy"]
+[ext_resource type="PackedScene" uid="uid://cwkjfkl1ydpmu" path="res://tile_map_layer.tscn" id="2_o3cl4"]
+[ext_resource type="PackedScene" uid="uid://uf70rg2qgd3i" path="res://box.tscn" id="4_rlx2o"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_jq6gy")]
+position = Vector2(6, -5)
+
+[node name="TileMapLayer" parent="." instance=ExtResource("2_o3cl4")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(5, 5)
+
+[node name="Box" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(30, -6)
+
+[node name="Box2" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(-18, 18)
+
+[node name="Box3" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(6, -30)
+
+[node name="Box4" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(18, -30)
+
+[node name="Box5" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(30, -30)
+
+[node name="Box6" parent="." instance=ExtResource("4_rlx2o")]
+position = Vector2(30, -18)
