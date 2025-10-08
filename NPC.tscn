@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://bgpmgvn324q8y"]
+
+[ext_resource type="Script" uid="uid://cuuxkmrnq0rap" path="res://npc.gd" id="1_ll5ud"]
+[ext_resource type="Texture2D" uid="uid://cy4vcq4ahs56w" path="res://Art/NPC.png" id="1_twre2"]
+[ext_resource type="PackedScene" uid="uid://btx7pah26s2mm" path="res://Singletons/interaction_area.tscn" id="3_u1jv5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ll5ud"]
+size = Vector2(8, 12)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_u1jv5"]
+radius = 24.020824
+
+[node name="NPC" type="Area2D"]
+script = ExtResource("1_ll5ud")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_twre2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ll5ud")
+
+[node name="InteractionArea" parent="." instance=ExtResource("3_u1jv5")]
+action_name = "talk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+shape = SubResource("CircleShape2D_u1jv5")

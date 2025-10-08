@@ -2,3 +2,17 @@ res://Textbox.tscn
 res://textbox.gd
 res://box.tscn
 res://Singletons/DialogManager.gd
+res://NPC.tscn
+res://MainLevel.tscn
+res://player.gd
+res://npc.gd
+res://player.tscn
+res://interaction_are.tscn
+res://interaction_area.tscn
+res://interaction_area.gd
+res://InteractionManager.tscn
+res://interaction_manager.gd
+res://Singletons/interaction_area.tscn
+res://Singletons/InteractionManager.tscn
+res://Singletons/interaction_manager.gd
+res://Singletons/interaction_area.gd

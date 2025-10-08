@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://btx7pah26s2mm"]
+
+[ext_resource type="Script" uid="uid://tqk5x3afog77" path="res://Singletons/interaction_area.gd" id="1_bfcvi"]
+
+[node name="InteractionArea" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_bfcvi")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

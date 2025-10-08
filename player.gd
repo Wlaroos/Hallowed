@@ -3,10 +3,10 @@ extends Area2D
 var tile_size = 12
 
 var inputs = {
-	"MoveRight": Vector2.RIGHT,
-	"MoveLeft": Vector2.LEFT,
-	"MoveUp": Vector2.UP,
-	"MoveDown": Vector2.DOWN }
+	"move_right": Vector2.RIGHT,
+	"move_left": Vector2.LEFT,
+	"move_up": Vector2.UP,
+	"move_down": Vector2.DOWN }
 	
 @onready var ray = $RayCast2D
 	
