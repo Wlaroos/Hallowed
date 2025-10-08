@@ -16,3 +16,4 @@ res://Singletons/interaction_area.tscn
 res://Singletons/InteractionManager.tscn
 res://Singletons/interaction_manager.gd
 res://Singletons/interaction_area.gd
+res://DialogBox.tscn
