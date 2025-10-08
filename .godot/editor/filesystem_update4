@@ -1,6 +1,4 @@
-res://player.tscn
-res://player.gd
-res://MainLevel.tscn
-res://node_2d.gd
-res://tile_map_layer.tscn
+res://Textbox.tscn
+res://textbox.gd
 res://box.tscn
+res://Singletons/DialogManager.gd

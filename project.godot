@@ -15,6 +15,14 @@ run/main_scene="uid://c75xc7lyjdxuo"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+DialogManager="*res://Singletons/DialogManager.gd"
+
+[gui]
+
+theme/default_font_subpixel_positioning=0
+
 [input]
 
 MoveUp={
