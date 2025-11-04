@@ -14,5 +14,6 @@ func _ready():
 	
 func _on_interact():
 	DialogManager.start_dialog(global_position, lines)
+	%TalkSfx.play()
 	sprite.flip_h = true if interaction_area.get_overlapping_areas()[0].global_position.x < global_position.x else false
 	await DialogManager.dialog_finished
