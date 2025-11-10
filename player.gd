@@ -24,6 +24,6 @@ func move(dir):
 	ray.force_raycast_update()
 	if !ray.is_colliding():
 		position += inputs[dir] * tile_size
-		%MoveSfx.play()
+		%AudioManager._playSFX("Move")
 	else:
-		%HitSfx.play()
+		%AudioManager._playSFX("Hit")

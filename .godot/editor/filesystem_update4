@@ -1,8 +1,5 @@
 res://MainLevel.tscn
-res://player.gd
-res://Singletons/interaction_manager.gd
-res://Singletons/interaction_area.tscn
-res://Singletons/InteractionManager.tscn
-res://npc.gd
-res://Singletons/DialogManager.gd
+res://audio_manager.gd
 res://main_level.gd
+res://npc.gd
+res://player.gd
