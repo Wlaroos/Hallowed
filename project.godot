@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 DialogManager="*res://Singletons/DialogManager.gd"
 InteractionManager="*res://Singletons/InteractionManager.tscn"
+AudioManager="*res://Singletons/audio_manager.tscn"
 
 [gui]
 

@@ -1,0 +1,57 @@
+[gd_scene load_steps=6 format=3 uid="uid://crd4hu6di8m52"]
+
+[ext_resource type="PackedScene" uid="uid://c81jkxgtkpntt" path="res://player.tscn" id="2_62f1r"]
+[ext_resource type="PackedScene" uid="uid://cwkjfkl1ydpmu" path="res://tile_map_layer.tscn" id="3_1je60"]
+[ext_resource type="PackedScene" uid="uid://uf70rg2qgd3i" path="res://box.tscn" id="4_ycmr1"]
+[ext_resource type="PackedScene" uid="uid://cs0748v1rfxo5" path="res://Singletons/InteractionManager.tscn" id="6_sgc6j"]
+[ext_resource type="PackedScene" uid="uid://ch2b5oxf0u353" path="res://arrow_box.tscn" id="11_au75x"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_62f1r")]
+position = Vector2(30, 66)
+
+[node name="TileMapLayer" parent="." instance=ExtResource("3_1je60")]
+position = Vector2(115, 65)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(115, 65)
+zoom = Vector2(5, 5)
+
+[node name="Box" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 30)
+
+[node name="Box2" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 89)
+
+[node name="Box3" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 41)
+
+[node name="Box4" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 53)
+
+[node name="Box5" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 6)
+
+[node name="Box6" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 18)
+
+[node name="InteractionManager" parent="." instance=ExtResource("6_sgc6j")]
+position = Vector2(4, -19)
+
+[node name="Box7" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 101)
+
+[node name="Box8" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 77)
+
+[node name="Box9" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 113)
+
+[node name="Box10" parent="." instance=ExtResource("4_ycmr1")]
+position = Vector2(6, 125)
+
+[node name="Box11" parent="." instance=ExtResource("11_au75x")]
+position = Vector2(6, 65)
+rotation = 3.1415927
+scene_path = "res://Scenes/MainLevel.tscn"

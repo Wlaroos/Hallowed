@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ch2b5oxf0u353"]
+
+[ext_resource type="Texture2D" uid="uid://b4cw83mfdihqo" path="res://Art/ArrowBox.png" id="1_nakqr"]
+[ext_resource type="Script" uid="uid://da8f2pr1o3lq5" path="res://arrow_box.gd" id="1_w1enw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oyhfb"]
+size = Vector2(12, 12)
+
+[node name="Box" type="StaticBody2D" groups=["arrow_box"]]
+script = ExtResource("1_w1enw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+self_modulate = Color(1, 1, 1, 0.39215687)
+texture = ExtResource("1_nakqr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_oyhfb")

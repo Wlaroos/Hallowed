@@ -24,6 +24,11 @@ func move(dir):
 	ray.force_raycast_update()
 	if !ray.is_colliding():
 		position += inputs[dir] * tile_size
-		%AudioManager._playSFX("Move")
+		AudioManager.play_sfx("Move")
 	else:
-		%AudioManager._playSFX("Hit")
+		var collider = ray.get_collider()
+		
+		if collider.is_in_group("arrow_box"):
+			collider._changeScene()
+		else:
+			AudioManager.play_sfx("Hit")

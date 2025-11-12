@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://cb2oxt4e8501h"]
+
+[ext_resource type="Script" uid="uid://txbv3vwkxueg" path="res://Singletons/audio_manager.gd" id="1_4vvjw"]
+[ext_resource type="AudioStream" uid="uid://c6w0ladbvxyf3" path="res://Audio/move.wav" id="2_y2k7y"]
+[ext_resource type="AudioStream" uid="uid://bkcvt3mfub22g" path="res://Audio/wall.wav" id="3_huqg2"]
+[ext_resource type="AudioStream" uid="uid://df1ifahexv3ar" path="res://Audio/coin.wav" id="4_3j71j"]
+[ext_resource type="AudioStream" uid="uid://c8rcty8ddbg7w" path="res://Audio/Yabai The Maid - owl.wav" id="5_puo2x"]
+[ext_resource type="FontFile" uid="uid://gu1htgxoijdj" path="res://Fonts/FFFFORWA.TTF" id="6_y2k7y"]
+
+[node name="AudioManager" type="Node2D" node_paths=PackedStringArray("music", "move_sfx", "hit_sfx", "talk_sfx", "button")]
+script = ExtResource("1_4vvjw")
+music = NodePath("Music")
+move_sfx = NodePath("MoveSfx")
+hit_sfx = NodePath("HitSfx")
+talk_sfx = NodePath("TalkSfx")
+button = NodePath("PauseMusicButton")
+
+[node name="MoveSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_y2k7y")
+
+[node name="HitSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_huqg2")
+
+[node name="TalkSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3j71j")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_puo2x")
+volume_db = -20.0
+
+[node name="PauseMusicButton" type="Button" parent="."]
+unique_name_in_owner = true
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 155.0
+offset_bottom = 45.0
+scale = Vector2(0.2, 0.2)
+theme_override_fonts/font = ExtResource("6_y2k7y")
+theme_override_font_sizes/font_size = 16
+toggle_mode = true
+text = "Pause  Music"
