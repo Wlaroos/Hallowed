@@ -1,11 +1,9 @@
-res://arrow_box.gd
-res://player.gd
-res://Scenes/main_level.gd
-res://arrow_box.tscn
-res://Scenes/Level2.tscn
+res://main_menu.gd
+res://main_menu.tscn
+res://Scenes/main_menu.tscn
+res://pause_menu.tscn
+res://pause_menu.gdshader
+res://pause_menu.gd
 res://Scenes/MainLevel.tscn
 res://Singletons/audio_manager.tscn
 res://Singletons/audio_manager.gd
-res://npc.gd
-res://tile_map_layer.tscn
-res://Singletons/interaction_manager.gd

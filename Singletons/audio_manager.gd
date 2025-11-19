@@ -50,10 +50,6 @@ func toggle_music_paused(pause: bool) -> void:
 	else:
 		music.play(music_pos)
 
-# -----------------------------------------------------------
-# SIGNAL CALLBACK
-# -----------------------------------------------------------
-
 func _on_pause_music_pressed() -> void:
 	is_paused = !is_paused
 	toggle_music_paused(is_paused)
