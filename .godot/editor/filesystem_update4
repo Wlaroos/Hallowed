@@ -1,9 +1,4 @@
-res://main_menu.gd
-res://main_menu.tscn
-res://Scenes/main_menu.tscn
-res://pause_menu.tscn
+res://tile_map_layer.tscn
 res://pause_menu.gdshader
+res://pause_menu.tscn
 res://pause_menu.gd
-res://Scenes/MainLevel.tscn
-res://Singletons/audio_manager.tscn
-res://Singletons/audio_manager.gd

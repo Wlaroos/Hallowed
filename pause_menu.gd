@@ -16,6 +16,8 @@ func toggle_pause() -> void:
 	change_text()
 	is_paused = !is_paused
 	get_tree().paused = is_paused
+	
+	$PanelContainer/VBoxContainer/ResumeButton.grab_focus()
 
 	if is_paused:
 		show()
