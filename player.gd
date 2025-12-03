@@ -1,5 +1,7 @@
 extends Area2D
 
+@export var inv: Inv
+
 var tile_size = 12
 
 var inputs = {
