@@ -1,6 +1,0 @@
-res://Scenes/MainLevel.tscn
-res://Inventory/playerinv.tres
-res://pause_menu.gdshader
-res://Inventory/inv_ui.tscn
-res://Inventory/inventory.gd
-res://Inventory/inv_ui.gd

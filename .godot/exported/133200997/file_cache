@@ -1,0 +1,17 @@
+res://Inventory/Items/Box.tres::1e423bfd8b26250af72d096d51e91e0d::1764780125::res://.godot/exported/133200997/export-0e171d9a43ec20dce30b23e22eda144c-Box.res
+res://Inventory/inv_ui.tscn::9e3e3a2469281df67ff02b6b64e5ad86::1764783038::res://.godot/exported/133200997/export-503c6c74744d99d30a4f33395bb72654-inv_ui.scn
+res://Inventory/inv_ui_slot.tscn::3cbee1c34ac06e3ed05e68dbfad8a914::1764782562::res://.godot/exported/133200997/export-b3bbbb932971784a2b874469e0ccc9f8-inv_ui_slot.scn
+res://Inventory/playerinv.tres::f804ea03601d7944d70ba1a05a61ad7b::1764783129::res://.godot/exported/133200997/export-f9a95924897880e604bbe04c6f10cae6-playerinv.res
+res://Scenes/Level2.tscn::1f8a3162a8ddf98413526dba19593c4a::1762996421::res://.godot/exported/133200997/export-9d4e2f94ebcfce1b84dc18de4c49a0a8-Level2.scn
+res://Scenes/MainLevel.tscn::d5c386c43bae28edd038af966767821f::1764783154::res://.godot/exported/133200997/export-054888e9b33e232635e5bfa392d12c33-MainLevel.scn
+res://Scenes/main_menu.tscn::4fcd81e9bcf054b94ce0c8c511b9bf2d::1763519051::res://.godot/exported/133200997/export-502e6a9b269597544b234abf28958cd8-main_menu.scn
+res://Singletons/audio_manager.tscn::b915585754f5f3f438bd9c2d04023247::1763522690::res://.godot/exported/133200997/export-de14a6ec3c3b3c356423fd8dd5ea59c0-audio_manager.scn
+res://Singletons/InteractionManager.tscn::3b788b71d808e4aaa8edaecd706634de::1762830667::res://.godot/exported/133200997/export-e676c52f83cefc9ddedc51f0d7f6090b-InteractionManager.scn
+res://Singletons/interaction_area.tscn::59b1a76b8b87ccc6854443ac744a7648::1762830667::res://.godot/exported/133200997/export-b85d81efb5745941791980f15a17308e-interaction_area.scn
+res://arrow_box.tscn::1768fc30bcb41e383ac565fdb6a3b636::1762996421::res://.godot/exported/133200997/export-9ed5848b6c7ee0fc2af53c2c52c66207-arrow_box.scn
+res://box.tscn::01a9332468cabbd884327ef2ce423b5c::1762830667::res://.godot/exported/133200997/export-0da9c88c1f789cfa891cd44f0340838c-box.scn
+res://NPC.tscn::a3b349565372414a64d3c6952158b5ac::1762830667::res://.godot/exported/133200997/export-097d60bdb7ea147e674f2c34013c36cb-NPC.scn
+res://pause_menu.tscn::2ab6b991af42b9a70a9f2b27320a15c4::1764780261::res://.godot/exported/133200997/export-8f8844d4375fca029c0f20cf6f905ea1-pause_menu.scn
+res://player.tscn::aca6dfe7c1fe83c4dfe6063d8e8bae1f::1764781228::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://Textbox.tscn::88f0074df7503dbaa47feecdbe0a33f4::1762830667::res://.godot/exported/133200997/export-b7c5cca6f56ac97a75c85ba6d284172c-Textbox.scn
+res://tile_map_layer.tscn::5d0181992133bb59a840d07424e8e175::1764659840::res://.godot/exported/133200997/export-a53f49e152acf4a77657be14bc696566-tile_map_layer.scn
